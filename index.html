@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Đọc Truyện Online</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+</head>
+
+<body>
+  <div id="index">
+  <div id="top"></div>
+<div id="navigation">
+  <ul class="menu">
+    <li><a href="#section_1">TRANG CHỦ</a></li>
+    <li><a href="#section_2">TRUYỆN MỚI</a></li>
+    <li><a href="#section_3">XẾP HẠNG ĐỌC</a></li>
+    <li><a href="#section_4">LIÊN HỆ</a></li>
+    <div class="search-wrapper">
+      <div class="input-holder">
+          <input type="text" class="search-input" placeholder="Type to search" />
+          <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+      </div>
+      <span class="close" onclick="searchToggle(this, event);"></span>
+  </div>
+  </ul>
+
+</div>
+<div id="section_1"></div>
+<div id="section_2"></div>
+<div id="section_3"></div>
+<div id="section_4"></div>
+
+<script src="scroll.js"></script>
+
+</div>
+</body>
+
+</html>
