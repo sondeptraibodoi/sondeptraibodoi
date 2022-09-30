@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Truyện Tranh Online</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" type="image/png"
+    href="image/png-clipart-deadpool-deadpool-punisher-logo-symbol-computer-icons-size-icon-deadpool-comics-desktop-wallpaper.png">
+</head>
+
+<body>
+  <div id="header">
+    <img id="logo1" src="image/logo.png">
+    <div class="box">
+      <div class="container-3">
+        <span class="icon"><i class="fa fa-search"></i></span>
+        <input type="search" id="search" placeholder="Search..." />
+      </div>
+    </div>
+    <div id="register">
+      <a href="register.html"><input type="button" value="Đăng Nhập / Đăng Ký"></a>
+    </div>
+  </div>
+  <div id="bar-menu" class="bar-menu"><a href="#">
+      <i class="fa fa-bars"></i></a>
+  </div>
+  <nav id="menu">
+    <ul class="container ul-reset">
+      <li><a href='index.html'>Trang Chủ</a></li>
+      <li class='droppable'>
+        <a>Thể Loại</a>
+        <div class='mega-menu'>
+          <div class="container cf">
+            <table>
+              <tr>
+                <td><a href="#">Action</a></td>
+                <td><a href="#">Adventure</a></td>
+                <td><a href="#">Comic</a></td>
+                <td><a href="#">Isekai</a></td>
+                <td><a href="#">Drama</a></td>
+                <td><a href="#">Fantasy</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">Horror</a></td>
+                <td><a href="#">Mystery</a></td>
+                <td><a href="#">School Life</a></td>
+                <td><a href="#">Trinh Thám</a></td>
+                <td><a href="#">Manga</a></td>
+                <td><a href="#">Manhua</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">Martial Arts</a></td>
+                <td><a href="#">MaTure</a></td>
+                <td><a href="#">Psychological</a></td>
+                <td><a href="#">One Shot</a></td>
+                <td><a href="#">Webtoon</a></td>
+                <td><a href="#">josei</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">Sport</a></td>
+                <td><a href="#">Shounen</a></td>
+                <td><a href="#">Shoujo</a></td>
+                <td><a href="#">Adult</a></td>
+                <td><a href="#">Mecha</a></td>
+                <td><a href="#">Seinen</a></td>
+              </tr>
+            </table>
+          </div><!-- .container -->
+        </div><!-- .mega-menu -->
+      </li><!-- .droppable -->
+      <li class='droppable'>
+        <a>Xếp Hạng</a>
+        <div class='mega-menu'>
+          <div class="container cf">
+            <table>
+              <tr>
+                <td><a href="#">Top Ngày</a></td>
+                <td><a href="#">Top Tuần</a></td>
+                <td><a href="#">Top Tháng</a></td>
+                <td><a href="#">Truyện Full</a></td>
+                <td><a href="#">Truyện Ngẫu NHiên</a></td>
+                <td><a href="#">Truyện Mới</a></td>
+              </tr>
+            </table>
+          </div><!-- .container -->
+        </div><!-- .mega-menu-->
+      </li><!-- .droppable -->
+      <li><a href='#'>Lịch Sử</a></li>
+      <li id="mn-register"><a href='register.html'>Đăng Ký/Đăng Nhập</a></li>
+      <li><a href='tim-truyen.html'>Tìm Truyện</a></li>
+      <li><a href='#'>Thảo Luận</a></li>
+    </ul><!-- .container .ul-reset -->
+  </nav>
+
+  <div class="center">
+
+    <div class="nd-center">
+      <!-- Slider 1 -->
+      <div class="slider" id="slider1">
+        <!-- Slides -->
+        <div
+          style="background-image:url(https://hanoispiritofplace.com/wp-content/uploads/2016/01/hinh-anh-one-piece-4.jpg)">
+        </div>
+        <div
+          style="background-image:url(https://ecdn.game4v.com/g4v-content/uploads/2020/10/game4v-One-Punch-Man-1.jpg)">
+        </div>
+        <div style="background-image:url(https://gamerwk.sgp1.cdn.digitaloceanspaces.com/2021/05/Berserk-Manga.jpg)">
+        </div>
+        <div style="background-image:url(https://i.pinimg.com/564x/3c/99/9c/3c999cd310f95f8878f38589b7ac8167.jpg)">
+        </div>
+        <div
+          style="background-image:url(https://vcdn.kenhgamevn.com/wp-content/uploads/2021/08/30113219/chainsaw-man-1-game4v-1.jpg)">
+        </div>
+        <!-- The Arrows -->
+        <i class="left" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
+            <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"></path>
+          </svg></i>
+        <i class="right" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
+            <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) ">
+            </path>
+          </svg></i>
+        <!-- Title Bar -->
+        <span class="titleBar">
+          <h1>TÌM TRUYỆN THÔI !!!!!!!!!!</h1>
+        </span>
+        </span>
+      </div>
+
+      <!-- san pham-->
+      <p class="tde1"><i class="fa-solid fa-star"></i></i>Truyện Hay</p>
+
+      <div class="content__product">
+        <div class="image-box" data-name="onepiece">
+          <a href="#">
+          <img src="image/onepiece.jpg" alt="">
+          </a>
+          <a href="#">
+          <span>One Piece</span>
+          </a>
+        </div>
+        <div class="image-box" data-name="joker">
+          <a href="#">
+            <img src="image/berserk.jpg" alt="">
+          </a>
+          <a href="#">
+            <span>Berserk</span>
+          </a>
+        </div>
+        <div class="image-box" data-name="ironman">
+          <a href="#">
+            <img src="image/attack-on-titan.jpg" alt="">
+          </a>
+          <a href="#">
+          <span>Attack on Titan</span>
+        </a>
+        </div>
+        <div class="image-box" data-name="passenger">
+          <a href="#">
+          <img src="image/onepunch-man.jpg" alt="">
+          </a>
+          <a href="#">
+          <span>One Punch Man</span>
+          </a>
+        </div>
+        <div class="image-box" data-name="space">
+          <a href="#">
+            <img src="image/tokyorevengers.jpg" alt="">
+          </a>
+          <a href="#">
+            <span>Tokyo Revengers</span>
+          </a>
+        </div>
+        <div class="image-box" data-name="spiderman">
+          <a href="#">
+            <img src="image/naruto.jpg" alt="">
+          </a>
+          <a href="#">
+            <span>Naruto</span>
+          </a>
+        </div>
+      </div>
+
+      <p class="tde2"><i class="fa-solid fa-file-pen"></i>Truyện Mới Cập Nhật</p>
+
+      <div class="content__product" id="product">
+      
+      </div>
+      <div class="content__paging">
+        <div class="page">
+          <ul>
+            <li class="btn-prev btn-active fas fa-angle-left"></li>
+            <div class="number-page" id="number-page">
+              <!--<li class="active">
+                        <a>1</a>
+                    </li>
+                    <li>
+                        <a>2</a>
+                    </li>
+                    <li>
+                        <a>3</a>
+                    </li>-->
+            </div>
+            <li class="btn-next fas fa-angle-right"></li>
+          </ul>
+        </div>
+        
+        <div class="total-page"></div>
+        <div class="total-item"></div>
+      </div>
+    </div>
+      
+
+    </div>
+  </div>
+
+  <div id="footer">
+    <img src="image/logo.png" id="logo-ft">
+    <div id="nd-ft">
+      <h4>Thực Hiện:</h4>
+      <h5>Cấn Thái Sơn</h5>
+    </div>
+  </div>
+  <div class="clear"></div>
+
+  <script>
+    $(document).ready(function () {
+      $('#bar-menu').click(function () {
+        $('nav').slideToggle();
+      });
+    })
+  </script>
+
+</body>
+<script src="js/index.js"></script>
+<script src="js/pagination.js"></script>
+<script src="js/product.js"></script>
+
+</html>
